@@ -28,7 +28,7 @@ fetch(apiUrl)
         });
     })
     .catch(error => {
-        console.error('Lỗi: ' + error);
+        console.error('Error: ' + error);
     });
     
 selectedCoin.addEventListener("change", function () {
