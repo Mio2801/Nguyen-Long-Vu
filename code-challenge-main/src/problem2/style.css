@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 360px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://e0.pxfuel.com/wallpapers/836/784/desktop-wallpaper-decentralized-finance-why-it-s-the-next-big-thing-in-the-cryptocurrency-industry.jpg);
+  background-size: cover;
+}
+
+.form{
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px #52bb42;
+  text-align: center;
+}
+
+.input_amount{
+  height: 30px;
+  border-radius: 5px;
+}
+
+.output_amount{
+  height: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.inp{
+  display: flex;
+  align-items: center;
+  padding-right:20px;
+}
+
+.out{
+  display: flex;
+  align-items: center;
+  padding-left:20px;
+}
+
+.menu{
+  margin: 10px 0 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.swap{
+  border: none;
+  background-color: #fff;
+  transition: 0.2s;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+.exchange_btn{
+  margin-top: 20px;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  background-color: rgb(68, 185, 68);
+  color: #fff;
+}
+
+.exchange_btn:hover{
+  opacity: 0.8;
+  box-shadow: 0 2px 10px lightgreen;
+}
+
+.exchange_btn:active{
+  opacity: 0.5;
+  box-shadow: 0 2px 10px lightgreen;
+}

@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fancy Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- You may add more stuff here -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <form class='form' onsubmit="return !1">
+    <h1 style='text-align:center; color: #000; margin:0'>CURRENCY CONVERTER</h1>
+    <img src='./img/business-investor-gaining-profit-from-investment.gif' alt='' ></img>
+    <div class='menu'>
+      <p>Select currency you want to exchange: </p>
+      <select class="menu" name="coin" id="coin">
+        <option value="0"></option>
+      </select>
+    </div>
+    <div>
+      <div style='display:flex'>
+        <div class='inp'>
+            <input class="input_amount" id="input-amount" type='number' />
+            <label for="input-amount">
+              <i class="fa-solid fa-dollar-sign" style='font-size: 25px; color: #000; padding-left: 10px' ></i>
+            </label>
+        </div>
+        <span class='swap' style='margin: 0 50px'><i class="fa-solid fa-right-left" style='color:#82868c; font-size:25px' ></i></span>
+        <div class='out'>
+            <input class="output_amount" id="output-amount" />
+            <label for="output-amount" style="margin-left: 8px;">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.808 13.44L16 7.2L22.224 13.424L25.84 9.808L16 0L6.192 9.824L9.808 13.44ZM0 16L3.616 12.384L7.248 16L3.632 19.616L0 16ZM9.792 18.56L16 24.8L22.224 18.576L25.84 22.192L16 32L6.192 22.176L9.792 18.56ZM24.8 16L28.416 12.384L32 16L28.4 19.616L24.8 16ZM16 19.664L19.68 16L16 12.336L13.312 15.04L12.992 15.344L12.352 16L16 19.664Z" fill="#F3BA2F"/>
+              </svg>
+            </label>
+        </div>
+        </div>
+    </div>
+    <button class='exchange_btn' style='text-align: center' id="exchange-button"><b>EXCHANGE</b></button>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
