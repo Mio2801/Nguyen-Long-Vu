@@ -37,7 +37,7 @@ selectedCoin.addEventListener("change", function () {
 });
 
 const change_cost = () => {  
-    let result = inputCost.value * exchangeCurrency; 
+    let result = inputCost.value / exchangeCurrency; 
     console.log('outputCost: ',outputCost.value);
     outputCost.value = result.toFixed(2);
     return outputCost;
